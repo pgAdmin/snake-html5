@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Snake",
+  "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   "description": "Snake is a video game that originated during the late 1970s in arcades. This is a HTML5 implementation of the same game.",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+   "version": "1.1"
+}

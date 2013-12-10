@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="jquery.min.js"></script>
+        <script src="script.js"></script>
+        <title>Simple snake game</title>
+    </head>
+    <body> 
+		<audio id="music" loop>
+			<source src="music.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="hit">
+			<source src="hit.mp3" type="audio/mpeg">
+		</audio>
+        <div id="game"> 
+			<div id="gameField">  
+				<div class="gamemsg" id="loseMsg">You lose! Try again<br><br>Press the "Space Bar" to play again!</button></div>
+            </div> 
+            <div id="gameInfo"> 
+				<div id="points">
+					<div>Your score:</div>
+					<div id="score">0</div>
+					<div>Speed:</div>
+					<div id="speed">1</div>
+				</div>
+				<div class="gamemsg">
+					<div id="nextRndMsg" style="visibility:hidden">Next Round!</div>
+				</div>
+				<div id="rules">
+					<p>Press Space to start or restart the game</p>
+					<p>Use arrows to move</p>
+					<p>Press Esc to quit</p>
+				</div>
+            </div> 
+        </div> 
+    </body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    background: #1E2930;
+}
+
+#game {
+	margin-top:2%;
+	width: 850px;
+	margin-left:20%;
+	font-family:sans-serif;
+}
+
+#gameField {
+	border-radius:5px;
+	width: 600px;
+	height: 600px;
+	float: left;
+	margin-right: 20px;
+	
+    background:#13191E;
+	position:relative;
+}
+
+#gameInfo {
+	border-radius:5px;
+	width: 200px;
+	height: 600px;
+	float: left;
+	
+    background:#13191E;
+	font-family:sans-serif; 
+	text-align:center;
+	color:rgba(255,255,255,0.6);
+}
+
+.bodypart {
+	height: 10px;
+	width: 10px;
+	position:absolute;
+	background: red;
+	 -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+}
+
+#points {
+	margin:5px;
+	height:120px;
+	margin-top:15px
+}
+
+#rules {
+	margin:5px;	
+    font-size:12pt;
+}
+
+.food {
+	height: 10px;
+	width: 10px;
+	position:absolute;
+	background: yellow;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    -webkit-box-shadow: 0px 0px 10px #9CE8C7;
+}
+
+.gamemsg {
+	font-size:16pt;
+	margin-bottom:35px;
+	color:#E01B6A;
+}
+
+#loseMsg{
+	padding-top:5px;
+    -webkit-box-shadow: 0px 0px 8px #fff;
+	margin-top:35%;
+	margin-left:25%;
+	border-radius:5px;
+	background-color:rgba(255,255,255,0.6);
+	width:300px;
+	height:100px;
+	text-align:center;
+	color:#13191E;
+	z-index:2;
+}
